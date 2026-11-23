@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Koeharjoitus – tietosuoja ja tuki / privacy and support</title>
+<meta name="description" content="Koeharjoitus (Exam Practice): tietosuojaseloste ja tuki. Privacy policy and support for the Koeharjoitus iOS app.">
+<style>
+  :root {
+    --bg: #f2f2f7; --card: #ffffff; --text: #1c1c1e; --secondary: #6c6c70;
+    --accent: #3b5bdb; --line: #d8d8dc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #000000; --card: #1c1c1e; --text: #f2f2f7; --secondary: #a1a1a6; --accent: #8ea2ff; --line: #38383a; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  header { margin-bottom: 28px; }
+  h1 { font-size: 34px; line-height: 1.15; margin: 0 0 6px; letter-spacing: -0.02em; }
+  header p { margin: 0; color: var(--secondary); }
+  nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+  nav a {
+    display: inline-block; padding: 7px 14px; border-radius: 999px; background: var(--card);
+    color: var(--accent); text-decoration: none; font-size: 15px; font-weight: 600;
+  }
+  section { background: var(--card); border-radius: 22px; padding: 24px 22px; margin: 18px 0; }
+  h2 { font-size: 24px; margin: 0 0 4px; letter-spacing: -0.01em; }
+  h3 { font-size: 17px; margin: 22px 0 4px; }
+  .lang { font-size: 13px; font-weight: 600; color: var(--secondary); text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 10px; }
+  p, ul { margin: 8px 0; }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  .meta { color: var(--secondary); font-size: 15px; }
+  .button {
+    display: inline-block; margin: 10px 0 4px; padding: 11px 20px; border-radius: 14px;
+    background: var(--accent); color: #fff; text-decoration: none; font-weight: 600;
+  }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 26px 0; }
+  footer { color: var(--secondary); font-size: 14px; margin-top: 28px; padding: 0 6px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Koeharjoitus <span style="font-weight:400;color:var(--secondary)">· Exam Practice</span></h1>
+    <p>iPhone- ja iPad-sovellus kokeisiin harjoitteluun tekoälyn avulla.<br>
+       iPhone and iPad app for practising for school exams with the help of AI.</p>
+    <nav>
+      <a href="#tietosuoja">Tietosuoja</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#tuki">Tuki</a>
+      <a href="#support">Support</a>
+    </nav>
+  </header>
+
+  <section id="tietosuoja">
+    <p class="lang">Suomi</p>
+    <h2>Tietosuojaseloste</h2>
+    <p class="meta">Voimassa 23.11.2026 alkaen</p>
+    <p>Koeharjoitus ei kerää, tallenna eikä lähetä mitään tietoja sovelluksen kehittäjälle. Sovelluksessa ei ole
+       analytiikkaa, mainoksia, seurantaa eikä käyttäjätiliä.</p>
+
+    <h3>Mitä tietoja sovellus käsittelee</h3>
+    <ul>
+      <li><strong>Koealueen kuvat</strong> (otetaan kameralla tai valitaan kuvakirjastosta) ja niistä tehdyt
+          tiivistelmät, kokeet, vastaukset ja tulokset tallennetaan vain laitteellesi.</li>
+      <li><strong>Tekoälypalvelu:</strong> kun pyydät tiivistelmää, koetta tai arviointia, sovellus lähettää koealueen
+          kuvat, koealueen tiedot (oppiaine, luokka-aste, lisätiedot) ja oppilaan vastaukset (myös käsin kirjoitetut
+          vastaukset kuvina) Anthropicin <strong>Claude</strong>-tekoälypalveluun <strong>omalla API-avaimellasi</strong>.
+          Sovellus kysyy suostumuksesi ennen ensimmäistä lähetystä, ja suostumuksen voi perua asetuksista.
+          Anthropic käsittelee tiedot omien ehtojensa ja
+          <a href="https://www.anthropic.com/legal/privacy">tietosuojakäytäntönsä</a> mukaisesti.
+          Tiedot eivät kulje kehittäjän palvelimien kautta.</li>
+      <li><strong>API-avain</strong> tallennetaan vain laitteen avainnippuun (Keychain), eikä sitä lähetetä
+          muualle kuin Anthropicille.</li>
+      <li><strong>Esittelytila</strong> ei ota yhteyttä mihinkään palvelimeen.</li>
+    </ul>
+    <p>Älä kuvaa sivuja, joilla on henkilötietoja (esimerkiksi nimiä tai yhteystietoja).</p>
+
+    <h3>Tietojen poistaminen</h3>
+    <p>Voit poistaa koealueen kaikkine kokeineen sovelluksessa. Kaikki sovelluksen tallentamat tiedot poistuvat,
+       kun poistat sovelluksen laitteelta. Anthropicille jo lähetettyjen tietojen säilytyksestä kerrotaan
+       Anthropicin tietosuojakäytännössä.</p>
+
+    <h3>Lapset</h3>
+    <p>Sovellusta käyttävät koululaiset, mutta sen ottaa käyttöön huoltaja, joka hankkii API-avaimen ja antaa
+       suostumuksen tietojen lähettämiseen tekoälypalveluun. Kehittäjä ei kerää tietoja keneltäkään.</p>
+
+    <h3>Muutokset ja yhteystiedot</h3>
+    <p>Jos tämä seloste muuttuu, päivitetty versio julkaistaan tällä sivulla. Kysymykset:
+       <a href="https://github.com/jope82/koeharjoitus/issues">GitHub Issues</a>.</p>
+
+    <hr>
+
+    <p class="lang" id="privacy">English</p>
+    <h2>Privacy Policy</h2>
+    <p class="meta">Effective 23 November 2026</p>
+    <p>Koeharjoitus (Exam Practice) does not collect, store or send any data to the app’s developer. The app
+       contains no analytics, advertising, tracking or user accounts.</p>
+
+    <h3>What data the app handles</h3>
+    <ul>
+      <li><strong>Photos of study pages</strong> (taken with the camera or chosen from the photo library) and the
+          summaries, exams, answers and results made from them are stored only on your device.</li>
+      <li><strong>AI service:</strong> when you ask for a summary, an exam or grading, the app sends the page photos,
+          the topic details (subject, grade level, notes) and the student’s answers (including handwritten answers as
+          images) to Anthropic’s <strong>Claude</strong> AI service <strong>using your own API key</strong>.
+          The app asks for your consent before the first upload, and you can withdraw consent in Settings.
+          Anthropic processes the data under its own terms and
+          <a href="https://www.anthropic.com/legal/privacy">privacy policy</a>.
+          The data never passes through the developer’s servers.</li>
+      <li><strong>The API key</strong> is stored only in the device keychain and is sent only to Anthropic.</li>
+      <li><strong>Demo mode</strong> does not connect to any server.</li>
+    </ul>
+    <p>Do not photograph pages that contain personal information (for example names or contact details).</p>
+
+    <h3>Deleting data</h3>
+    <p>You can delete a topic and all its exams in the app. All data stored by the app is removed when you delete
+       the app from your device. Anthropic’s privacy policy describes how long data already sent to Anthropic is kept.</p>
+
+    <h3>Children</h3>
+    <p>The app is used by school children, but it is set up by a parent or guardian, who obtains the API key and
+       gives consent to sending data to the AI service. The developer does not collect data from anyone.</p>
+
+    <h3>Changes and contact</h3>
+    <p>If this policy changes, the updated version will be published on this page. Questions:
+       <a href="https://github.com/jope82/koeharjoitus/issues">GitHub Issues</a>.</p>
+  </section>
+
+  <section id="tuki">
+    <p class="lang">Suomi</p>
+    <h2>Tuki</h2>
+    <p>Koeharjoitus tekee koealueen sivuista tiivistelmän ja harjoituskokeen, ja tarkistaa oppilaan vastaukset
+       lempeästi asteikolla 4–10. Vastata voi Apple Pencilillä, sormella tai näppäimistöllä.</p>
+
+    <h3>Mitä tarvitset</h3>
+    <ul>
+      <li>Anthropicin Claude API-avain (<a href="https://console.anthropic.com/settings/keys">console.anthropic.com</a>).
+          Käyttö laskutetaan API-tililtäsi.</li>
+      <li>iPhone tai iPad, jossa on iOS 17 tai uudempi.</li>
+    </ul>
+
+    <h3>Käyttöönotto</h3>
+    <ol>
+      <li>Avaa ⚙️ Asetukset ja liitä API-avain. Testaa se <strong>Testaa avain</strong> -napilla.</li>
+      <li>Tee uusi koealue ja kuvaa sivut (Skannaa sivut, Ota kuva tai Valitse kuvista).</li>
+      <li>Tee tiivistelmä ja sen jälkeen harjoituskoe.</li>
+    </ol>
+    <p>Voit kokeilla sovellusta ilman API-avainta kytkemällä asetuksista <strong>Esittelytilan</strong> päälle.</p>
+
+    <h3>Vianetsintä</h3>
+    <ul>
+      <li><strong>”API-avain on virheellinen”</strong>: tarkista avain asetuksista.</li>
+      <li><strong>”API-tilin saldo on loppu”</strong>: lisää saldoa osoitteessa console.anthropic.com.</li>
+      <li><strong>Tekoäly ei vastannut ajoissa</strong>: pidä sovellus auki odotuksen ajan ja yritä uudelleen.
+          Lyhyempi koe tai vähemmän sivuja nopeuttaa.</li>
+    </ul>
+
+    <h3>Ota yhteyttä</h3>
+    <p>Kysymykset, vikailmoitukset ja toiveet GitHubin Issues-sivulle (vaatii GitHub-tilin):</p>
+    <a class="button" href="https://github.com/jope82/koeharjoitus/issues">Avaa GitHub Issues</a>
+
+    <hr>
+
+    <p class="lang" id="support">English</p>
+    <h2>Support</h2>
+    <p>Koeharjoitus (Exam Practice) turns photos of study pages into a summary and a practice exam, and checks the
+       student’s answers in a lenient, encouraging way. Answers can be written with Apple Pencil, a finger or the keyboard.</p>
+
+    <h3>What you need</h3>
+    <ul>
+      <li>An Anthropic Claude API key (<a href="https://console.anthropic.com/settings/keys">console.anthropic.com</a>).
+          Usage is billed to your API account.</li>
+      <li>An iPhone or iPad with iOS 17 or later.</li>
+    </ul>
+
+    <h3>Getting started</h3>
+    <ol>
+      <li>Open ⚙️ Settings and paste the API key. Check it with <strong>Test key</strong>.</li>
+      <li>Create a new topic and add the pages (Scan pages, Take photo or Choose from Photos).</li>
+      <li>Make the summary, then take a practice exam.</li>
+    </ol>
+    <p>You can try the app without an API key by turning on <strong>Demo mode</strong> in Settings.</p>
+
+    <h3>Troubleshooting</h3>
+    <ul>
+      <li><strong>“The API key is invalid”</strong>: check the key in Settings.</li>
+      <li><strong>“Your API credit balance is too low”</strong>: add credits at console.anthropic.com.</li>
+      <li><strong>The AI did not respond in time</strong>: keep the app open while waiting and try again.
+          A shorter exam or fewer pages is faster.</li>
+    </ul>
+
+    <h3>Contact</h3>
+    <p>Questions, bug reports and feature requests on the GitHub Issues page (requires a GitHub account):</p>
+    <a class="button" href="https://github.com/jope82/koeharjoitus/issues">Open GitHub Issues</a>
+  </section>
+
+  <footer>
+    Koeharjoitus on itsenäinen sovellus, eikä se liity Anthropiciin. Claude on Anthropicin tavaramerkki.<br>
+    Koeharjoitus is an independent app and is not affiliated with Anthropic. Claude is a trademark of Anthropic.
+  </footer>
+</main>
+</body>
+</html>
